@@ -6,6 +6,8 @@ echo "wp u creat a post";
 echo "<p>title : ".$title." </p>";
 echo "<p>content : ".$content." </p>";
 
+echo "<a href='index.php'> Retour a index </a>";
+
 //on vérifie que le dossier post existe et si il n'éxiste pas créé un dossier post
 if (!is_dir('post')){
 mkdir('post');
